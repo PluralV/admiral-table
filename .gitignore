@@ -1,6 +1,5 @@
 # Prerequisites
 *.d
-
 # Compiled Object files
 *.slo
 *.lo
@@ -67,3 +66,17 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# extra files
+*specs.md
+*.pdf
+*.claude
+
+# .NET
+bin/
+obj/
+.vs/
+*.user
+[Dd]ebug/
+[Rr]elease/
+TestResults/
